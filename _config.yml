@@ -1,1 +1,3 @@
 baseurl:/my
+markdown:rdiscount
+pygments:true
