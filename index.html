@@ -2,10 +2,31 @@
 layout: default
 title: 小歪师傅的自留地
 ---
-<h2>{{ page.title }}</h2>
-<p>最新文章</p>
-<ul>
+<div class="content">
+	<h2 class="doc-title">文档列表</h2>
+	<ul class="doc-list">
 	{% for post in site.posts %}
-　　	<li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
+　　	<li>
+			<span>{{ post.date | date_to_string }}</span>
+			<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+			<p>管理git的工作</p>
+		</li>
 　　{% endfor %}
-</ul>
+	</ul>
+</div>
+<div class="aside">
+	<h2 class="catalog-title">按分类</h2>
+	<ul class="catalog-list">
+		<li><a href="javascript://">日期</a></li>
+		<li><a href="javascript://">日期</a></li>
+		<li><a href="javascript://">日期</a></li>
+		<li><a href="javascript://">日期</a></li>
+	</ul>
+	<h2 class="catalog-titel">按日期</h2>
+	<ul class="catalog-list">
+		<li><a href="javascript://">日期</a></li>
+		<li><a href="javascript://">日期</a></li>
+		<li><a href="javascript://">日期</a></li>
+		<li><a href="javascript://">日期</a></li>
+	</ul>
+</div>
