@@ -1,3 +1,1 @@
-baseurl:/my
-markdown:rdiscount
-pygments:true
+baseurl: /my
