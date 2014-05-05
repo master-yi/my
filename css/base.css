@@ -1,0 +1,25 @@
+body,html,h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0; border: 0;}
+a{color: #38e;text-decoration: none;}
+a:hover{color: #e83;}
+body{font:normal 16px Mircosoft Yahei,Helvetica,sans-serif;background: #f5f5d5;}
+p{margin-bottom: 14px;}
+h1{font-size: 20px;}
+h2{font-size: 16px;}
+h3{font-size: 14px;}
+li{list-style-type: square;}
+
+.f-wrapper{width: 960px;margin: 0 auto;}
+.f-clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+
+.header h1{color: #666;padding: 15px 0;}
+
+.container,.content{min-height: 980px;}
+.container{margin-top: 15px;}
+.content{margin: 0 20px 0 0;float: left;width: 740px;}
+.aside{float: right;width: 200px;}
+
+.doc-list{margin-bottom: 15px;}
+.doc-list p{margin-top: 15px;}
+
+
+.catalog-list li{height: 30px;line-height: 30px;}
