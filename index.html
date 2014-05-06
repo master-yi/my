@@ -16,5 +16,7 @@ title: 小歪师傅的自留地
 	</ul>
 </div>
 <div class="aside">
-	{{site.categories}}
+	{% for ctegory in site.categories%}
+		<h2>{category|first}</h2><span>{category|last|size}{}</span>
+	{%endfor%}
 </div>
