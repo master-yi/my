@@ -9,7 +9,7 @@ title: 小歪师傅的自留地
 　　	<li>
 			<span>{{ post.date | date_to_string }}</span>
 			<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-			<p>管理git的工作</p>
+			<p>{{post.excerpt}}</p>
 		</li>
 　　{% endfor %}
 	</ul>
