@@ -7,8 +7,8 @@ title: 小歪师傅的自留地
 	<ul class="doc-list">
 	{% for post in site.posts %}
 　　	<li>
-			<span>{{ post.date | date: "%F"}}</span>
 			<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+        	<span>{{ post.date | date: "%F"}}</span>
         	<p>{{ post.category }}</p>
         	<p>{{ post.excerpt }}</p> 
 		</li>
