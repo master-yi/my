@@ -9,7 +9,9 @@ title: 小歪师傅的自留地
 　　	<li>
 			<span>{{ post.date | date_to_string }}</span>
 			<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-			<p>{{post.excerpt}}</p>
+			{{ post.date | date: "%F" }} <br>
+        	{{ post.category }} <br>
+        	{{ post.excerpt }} 
 		</li>
 　　{% endfor %}
 	</ul>
